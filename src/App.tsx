@@ -2,14 +2,14 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { AuthProvider } from './components/auth/AuthProvider.tsx';
 import { Navigation } from './components/layout/Navigation.tsx';
-import { Dashboard } from './pages/Dashboard.tsx';
-import { CreatePost } from './pages/CreatePost.tsx';
-import { Calendar } from './pages/Calendar.tsx';
-import { Analytics } from './pages/Analytics.tsx';
-import { VideoGenerator } from './pages/VideoGenerator.tsx';
-import { Teams } from './pages/Teams.tsx';
-import { Settings } from './pages/Settings.tsx';
-import { Login } from './pages/Login.tsx';
+import Dashboard from './pages/Dashboard.tsx';
+import CreatePost from './pages/CreatePost.tsx';
+import Calendar from './pages/Calendar.tsx';
+import Analytics from './pages/Analytics.tsx';
+import VideoGenerator from './pages/VideoGenerator.tsx';
+import Teams from './pages/Teams.tsx';
+import Settings from './pages/Settings.tsx';
+import Login from './pages/Login.tsx';
 import { ProtectedRoute } from './components/auth/ProtectedRoute.tsx';
 
 function App() {
