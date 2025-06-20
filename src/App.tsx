@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
-import { AuthProvider } from './components/auth/AuthProvider.tsx';
-import { Navigation } from './components/layout/Navigation.tsx';
-import Dashboard from './pages/Dashboard.tsx';
-import CreatePost from './pages/CreatePost.tsx';
-import Calendar from './pages/Calendar.tsx';
-import Analytics from './pages/Analytics.tsx';
-import VideoGenerator from './pages/VideoGenerator.tsx';
-import Teams from './pages/Teams.tsx';
-import Settings from './pages/Settings.tsx';
-import Login from './pages/Login.tsx';
-import { ProtectedRoute } from './components/auth/ProtectedRoute.tsx';
+import { AuthProvider } from './components/auth/AuthProvider';
+import { Navigation } from './components/layout/Navigation';
+import Dashboard from './pages/Dashboard';
+import CreatePost from './pages/CreatePost';
+import Calendar from './pages/Calendar';
+import Analytics from './pages/Analytics';
+import VideoGenerator from './pages/VideoGenerator';
+import Teams from './pages/Teams';
+import Settings from './pages/Settings';
+import Login from './pages/Login';
+import { ProtectedRoute } from './components/auth/ProtectedRoute';
 
 function App() {
   return (
